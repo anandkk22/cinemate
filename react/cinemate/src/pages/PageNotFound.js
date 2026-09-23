@@ -4,7 +4,7 @@ import PageNotFoundImage from "../assets/images/pagenotfound.png";
 import { Button } from "../components/Button";
 import { useEffect } from "react";
 export const PageNotFound = (title) => {
-  const pageTitle = useTitle(`Page Not Found for ${title}`);
+  useTitle(`Page Not Found for ${title}`);
 
   return (
     <main>
